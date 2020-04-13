@@ -12,6 +12,3 @@ def time_string(int)
 	end
 	return h_m[0] + ":" + h_m[1] + ":" + h_m[2]
 end
-
-puts time_string(4000)
-puts time_string(12)
