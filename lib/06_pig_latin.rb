@@ -6,7 +6,7 @@ def translate(str)
 			cons = w.slice(0...pos_vowel)
 			w.slice(pos_vowel..-1) + cons + "ay"
 		elsif pos_vowel > 0 && w[pos_vowel] == 'u'
-			cons = w.slice(0...(pos_vowel + 1))
+			cons = w.slice(0..pos_vowel)
 			w.slice((pos_vowel + 1)..-1) + cons + "ay"
 		else
 			w + "ay"
